@@ -1,0 +1,65 @@
+{
+ "config": {
+  "geometry_backend": "da3-base",
+  "geometry_mode": "shared_pose",
+  "track_objects": true,
+  "max_keyframes": 32,
+  "long_side": 504,
+  "view_group_pos_frac": 0.15,
+  "view_group_angle_deg": 20.0,
+  "surface_voxel_frac": 0.008,
+  "object_voxel_frac": 0.02,
+  "eps_sigma": 3.0,
+  "min_conflict_groups": 2,
+  "cluster_radius_frac": 0.03,
+  "min_motion_frac": 0.06,
+  "max_object_travel_frac": 1.2,
+  "metric_model": "depth-anything/DA3METRIC-LARGE",
+  "camera_height_prior_m": 1.4,
+  "meters_per_unit": null,
+  "robot_radius_m": 0.22,
+  "clearance_m": 0.05,
+  "seed": 0,
+  "phase_before": 0,
+  "phase_after": 0
+ },
+ "before": "before.mp4",
+ "after": "after.mp4",
+ "timings_s": {
+  "geometry": 16.7,
+  "alignment": 48.1,
+  "visibility": 50.5,
+  "objects": 254.7,
+  "decision": 363.1,
+  "outputs": 366.5
+ },
+ "total_s": 366.5,
+ "versions": {
+  "torch": "2.9.1+cu128",
+  "numpy": "2.4.6",
+  "open3d": "0.20.0",
+  "transformers": "5.19.0",
+  "viser": "1.1.1",
+  "lightglue": "0.0",
+  "depth-anything-3": "0.0.0",
+  "opencv-python-headless": "5.0.0.93",
+  "scipy": "1.17.1"
+ },
+ "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+ "models": {
+  "geometry": "depth-anything/DA3-BASE",
+  "metric": "depth-anything/DA3METRIC-LARGE",
+  "detector": "IDEA-Research/grounding-dino-base",
+  "segmenter": "facebook/sam2.1-hiera-large",
+  "features": "ALIKED (n16) + LightGlue",
+  "appearance": "facebook/dinov2-base"
+ },
+ "floor": {
+  "normal": [
+   -0.03416705294930352,
+   -0.8681854991632927,
+   -0.4950621693639535
+  ],
+  "d": 0.6317084886615956
+ }
+}

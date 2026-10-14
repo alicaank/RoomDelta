@@ -1,0 +1,54 @@
+{
+ "robot_radius_m": 0.22,
+ "clearance_m": 0.05,
+ "swept_cells": 2521,
+ "new_obstacle_cells_on_route": 5,
+ "unassessed_cells_on_route": 812,
+ "unassessed_fraction": 0.3220944069813566,
+ "blocking_events": [
+  {
+   "event_id": "E03",
+   "label": "suitcase",
+   "cells": 5
+  }
+ ],
+ "replan_before_unassessed_fraction": null,
+ "replan_before_len_m": null,
+ "replan_after_len_m": null,
+ "replan_after_unassessed_fraction": null,
+ "radius_sensitivity": [
+  {
+   "robot_radius_m": 0.15,
+   "new_obstacle_cells": 0,
+   "intersecting": []
+  },
+  {
+   "robot_radius_m": 0.2,
+   "new_obstacle_cells": 1,
+   "intersecting": [
+    "suitcase (E03)"
+   ]
+  },
+  {
+   "robot_radius_m": 0.25,
+   "new_obstacle_cells": 5,
+   "intersecting": [
+    "suitcase (E03)"
+   ]
+  },
+  {
+   "robot_radius_m": 0.3,
+   "new_obstacle_cells": 16,
+   "intersecting": [
+    "suitcase (E03)"
+   ]
+  },
+  {
+   "robot_radius_m": 0.35,
+   "new_obstacle_cells": 25,
+   "intersecting": [
+    "suitcase (E03)"
+   ]
+  }
+ ]
+}

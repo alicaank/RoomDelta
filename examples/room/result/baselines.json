@@ -1,0 +1,22 @@
+{
+ "B0_nearest_neighbour": {
+  "removed_regions": 23,
+  "added_regions": 21,
+  "gone_points": 28366,
+  "gone_points_explained_by_visibility": {
+   "occluded": 0.2065853486568427,
+   "not_observed": 0.3712543185503772,
+   "compatible_elsewhere_in_view": 0.1324472960586618,
+   "free_space_conflict": 0.2758936755270394
+  },
+  "removed_regions_mostly_occluded_or_unobserved": 11
+ },
+ "B1_visibility_only": {
+  "removed_regions": 8,
+  "added_regions": 3
+ },
+ "full": {
+  "moved": 4,
+  "unchanged": 18
+ }
+}

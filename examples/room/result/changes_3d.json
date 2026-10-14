@@ -1,0 +1,153 @@
+{
+ "frame": "floor plane z=0, z up, x/y along the floor",
+ "units": "m",
+ "scale_status": "learned_metric",
+ "scale_source": "DA3METRIC-LARGE monocular metric depth vs reconstruction, median of 64 keyframes (16-84%: 2.003-2.205 m/unit)",
+ "points": {
+  "before": 369643,
+  "after": 359919,
+  "changes": 34214
+ },
+ "changes": [
+  {
+   "event_id": "E00",
+   "type": "moved",
+   "label": "chair",
+   "description": "The chair moved \u224827 cm (\u00b16 cm), staying next to the dining table. The second video sees straight through 33% of where it used to be.",
+   "identity": "high",
+   "limitations": [
+    "the shape is nearly symmetric, so its rotation is not reported"
+   ],
+   "before_box_m": {
+    "center": [
+     2.128,
+     -0.444,
+     0.504
+    ],
+    "size": [
+     0.368,
+     0.306,
+     0.864
+    ]
+   },
+   "after_box_m": {
+    "center": [
+     2.043,
+     -0.563,
+     0.513
+    ],
+    "size": [
+     0.284,
+     0.492,
+     0.835
+    ]
+   },
+   "displacement_m": 0.271
+  },
+  {
+   "event_id": "E01",
+   "type": "moved",
+   "label": "chair",
+   "description": "The chair moved \u224836 cm (\u00b17 cm) and turned about 42\u00b0, staying next to the dining table. The second video sees straight through 41% of where it used to be.",
+   "identity": "medium (shape fit after rigid motion; few appearance matches)",
+   "limitations": [],
+   "before_box_m": {
+    "center": [
+     1.814,
+     0.644,
+     0.424
+    ],
+    "size": [
+     0.454,
+     0.832,
+     0.828
+    ]
+   },
+   "after_box_m": {
+    "center": [
+     2.001,
+     1.06,
+     0.515
+    ],
+    "size": [
+     0.497,
+     0.557,
+     0.848
+    ]
+   },
+   "displacement_m": 0.355,
+   "rotation_deg": 42.2
+  },
+  {
+   "event_id": "E02",
+   "type": "moved",
+   "label": "plate and vase",
+   "description": "The plate and vase moved \u224868 cm (\u00b17 cm) along the dining table. The second video sees straight through 86% of where it used to be.",
+   "identity": "medium (shape fit after rigid motion; few appearance matches)",
+   "limitations": [
+    "the shape is nearly symmetric, so its rotation is not reported",
+    "2 detected parts moved together and are reported as one change"
+   ],
+   "before_box_m": {
+    "center": [
+     2.371,
+     -0.053,
+     0.902
+    ],
+    "size": [
+     0.237,
+     0.354,
+     0.251
+    ]
+   },
+   "after_box_m": {
+    "center": [
+     2.038,
+     0.617,
+     0.903
+    ],
+    "size": [
+     0.284,
+     0.233,
+     0.244
+    ]
+   },
+   "displacement_m": 0.677
+  },
+  {
+   "event_id": "E03",
+   "type": "moved",
+   "label": "suitcase",
+   "description": "The suitcase moved \u224838 cm (\u00b17 cm), staying next to the coffee table. The second video sees straight through 70% of where it used to be.",
+   "identity": "medium (shape fit after rigid motion; few appearance matches)",
+   "limitations": [
+    "the shape is nearly symmetric, so its rotation is not reported"
+   ],
+   "before_box_m": {
+    "center": [
+     1.176,
+     0.312,
+     0.295
+    ],
+    "size": [
+     0.244,
+     0.334,
+     0.439
+    ]
+   },
+   "after_box_m": {
+    "center": [
+     1.036,
+     -0.026,
+     0.306
+    ],
+    "size": [
+     0.296,
+     0.356,
+     0.428
+    ]
+   },
+   "displacement_m": 0.376
+  }
+ ]
+}

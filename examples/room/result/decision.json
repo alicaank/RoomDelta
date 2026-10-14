@@ -1,0 +1,456 @@
+{
+ "appearance": {
+  "n_pos": 17,
+  "n_neg": 381,
+  "pos": [
+   0.9430006742477417,
+   0.02809374622106552
+  ],
+  "neg": [
+   0.3000999093055725,
+   0.23481123025417328
+  ]
+ },
+ "ghosts": {
+  "A": {},
+  "B": {}
+ },
+ "sensors": {
+  "A": {
+   "a": 0.013277353972890458,
+   "b": 0.0037220597453714974,
+   "outlier": 0.1292844204491497,
+   "kind": "cross-visit",
+   "bins_x": [
+    0.75,
+    0.65,
+    0.55,
+    0.44999999999999996,
+    0.35,
+    0.25,
+    0.15000000000000002,
+    0.050000000000000044
+   ],
+   "bins_sigma": [
+    0.015813797724584893,
+    0.015939500671835156,
+    0.01639764138370653,
+    0.014925755149146996,
+    0.013468375133043128,
+    0.013443023683444737,
+    0.013769642935409365,
+    0.014371686287141678
+   ],
+   "n": 341178
+  },
+  "B": {
+   "a": 0.013750047131706734,
+   "b": 0.0031440632709248168,
+   "outlier": 0.11513161246930062,
+   "kind": "cross-visit",
+   "bins_x": [
+    0.75,
+    0.65,
+    0.55,
+    0.44999999999999996,
+    0.35,
+    0.25,
+    0.15000000000000002,
+    0.050000000000000044
+   ],
+   "bins_sigma": [
+    0.014098141086172314,
+    0.016195575618235942,
+    0.017871390091191305,
+    0.015640473346431285,
+    0.014236662581147341,
+    0.014460598034674556,
+    0.014009425092936113,
+    0.013549113669824434
+   ],
+   "n": 392516
+  }
+ },
+ "matches": [
+  {
+   "a": "A00",
+   "b": "B02",
+   "kind": "moved",
+   "margin": 15.97,
+   "disp": 0.12761570906815253,
+   "rot": 29.64273315488485,
+   "terms": {
+    "llr_before_obj_in_after": 8.99,
+    "llr_after_obj_in_before": 35.95,
+    "groups": [
+     13,
+     14
+    ],
+    "identity": 7.3,
+    "appearance": 3.23,
+    "prior": -3.01
+   },
+   "s_unchanged": 0.75,
+   "s_moved": 15.52,
+   "ambiguous_with": [],
+   "i": 0.0,
+   "j": 2.0,
+   "llr_gone_a": -3.0,
+   "llr_added_b": 14.98
+  },
+  {
+   "a": "A02",
+   "b": "B09",
+   "kind": "unchanged",
+   "margin": 0.31,
+   "disp": 0.02397230323999454,
+   "rot": 5.2883294018524,
+   "terms": {},
+   "s_unchanged": -2.1,
+   "s_moved": -Infinity,
+   "ambiguous_with": [],
+   "i": 2.0,
+   "j": 9.0,
+   "llr_gone_a": -8.99,
+   "llr_added_b": -8.99
+  },
+  {
+   "a": "A04",
+   "b": "B07",
+   "kind": "unchanged",
+   "margin": 7.86,
+   "disp": 0.009039668734660014,
+   "rot": 0.1400569917922906,
+   "terms": {},
+   "s_unchanged": 5.45,
+   "s_moved": -Infinity,
+   "ambiguous_with": [],
+   "i": 4.0,
+   "j": 7.0,
+   "llr_gone_a": -38.94,
+   "llr_added_b": -14.98
+  },
+  {
+   "a": "A05",
+   "b": "B04",
+   "kind": "unchanged",
+   "margin": 7.12,
+   "disp": 0.02404807836954077,
+   "rot": 2.1907944209083454,
+   "terms": {},
+   "s_unchanged": 4.71,
+   "s_moved": -Infinity,
+   "ambiguous_with": [],
+   "i": 5.0,
+   "j": 4.0,
+   "llr_gone_a": -20.97,
+   "llr_added_b": -8.99
+  },
+  {
+   "a": "A06",
+   "b": "B03",
+   "kind": "moved",
+   "margin": 10.78,
+   "disp": 0.16698176038666995,
+   "rot": 42.18919830906541,
+   "terms": {
+    "llr_before_obj_in_after": -5.99,
+    "llr_after_obj_in_before": 29.96,
+    "groups": [
+     14,
+     12
+    ],
+    "identity": 5.4,
+    "appearance": 4.0,
+    "prior": -3.02
+   },
+   "s_unchanged": 2.08,
+   "s_moved": 8.37,
+   "ambiguous_with": [],
+   "i": 6.0,
+   "j": 3.0,
+   "llr_gone_a": -23.97,
+   "llr_added_b": -23.97
+  },
+  {
+   "a": "A07",
+   "b": "B00",
+   "kind": "unchanged",
+   "margin": 8.15,
+   "disp": 0.00974641297614246,
+   "rot": 1.7420527996066186,
+   "terms": {},
+   "s_unchanged": 5.74,
+   "s_moved": -Infinity,
+   "ambiguous_with": [],
+   "i": 7.0,
+   "j": 0.0,
+   "llr_gone_a": -38.94,
+   "llr_added_b": -41.94
+  },
+  {
+   "a": "A08",
+   "b": "B10",
+   "kind": "unchanged",
+   "margin": 6.36,
+   "disp": 0.01902008968662731,
+   "rot": 5.7116364583383605,
+   "terms": {},
+   "s_unchanged": 3.95,
+   "s_moved": -Infinity,
+   "ambiguous_with": [],
+   "i": 8.0,
+   "j": 10.0,
+   "llr_gone_a": -11.98,
+   "llr_added_b": -3.0
+  },
+  {
+   "a": "A09",
+   "b": "B06",
+   "kind": "unchanged",
+   "margin": 8.52,
+   "disp": 0.012229492730355509,
+   "rot": 2.1235126010116643,
+   "terms": {},
+   "s_unchanged": 6.11,
+   "s_moved": -Infinity,
+   "ambiguous_with": [],
+   "i": 9.0,
+   "j": 6.0,
+   "llr_gone_a": -9.1,
+   "llr_added_b": -17.97
+  },
+  {
+   "a": "A10",
+   "b": "B11",
+   "kind": "unchanged",
+   "margin": 8.75,
+   "disp": 0.007779668824249696,
+   "rot": 2.1152534476708515,
+   "terms": {},
+   "s_unchanged": 6.35,
+   "s_moved": -Infinity,
+   "ambiguous_with": [],
+   "i": 10.0,
+   "j": 11.0,
+   "llr_gone_a": -26.96,
+   "llr_added_b": -20.97
+  },
+  {
+   "a": "A11",
+   "b": "B13",
+   "kind": "moved",
+   "margin": 8.49,
+   "disp": 0.34722701274750584,
+   "rot": 66.61675546659355,
+   "terms": {
+    "llr_before_obj_in_after": 23.97,
+    "llr_after_obj_in_before": -1.11,
+    "groups": [
+     10,
+     11
+    ],
+    "identity": 0.66,
+    "appearance": -0.96,
+    "prior": -3.12
+   },
+   "s_unchanged": -4.56,
+   "s_moved": 3.26,
+   "ambiguous_with": [],
+   "i": 11.0,
+   "j": 13.0,
+   "attached_to": "A18",
+   "llr_gone_a": -3.0,
+   "llr_added_b": 7.88
+  },
+  {
+   "a": "A12",
+   "b": "B14",
+   "kind": "unchanged",
+   "margin": 8.44,
+   "disp": 0.005564588454776968,
+   "rot": 83.42966605867704,
+   "terms": {
+    "llr_before_obj_in_after": -32.95,
+    "llr_after_obj_in_before": -8.97,
+    "groups": [
+     13,
+     7
+    ],
+    "identity": 9.44,
+    "appearance": 4.0,
+    "prior": -3.0
+   },
+   "s_unchanged": 6.03,
+   "s_moved": -4.03,
+   "ambiguous_with": [],
+   "i": 12.0,
+   "j": 14.0,
+   "llr_gone_a": -35.95,
+   "llr_added_b": -20.97
+  },
+  {
+   "a": "A13",
+   "b": "B15",
+   "kind": "unchanged",
+   "margin": 7.38,
+   "disp": 0.008303666501402492,
+   "rot": 0.4992515590422235,
+   "terms": {},
+   "s_unchanged": 4.97,
+   "s_moved": -Infinity,
+   "ambiguous_with": [],
+   "i": 13.0,
+   "j": 15.0,
+   "llr_gone_a": -23.97,
+   "llr_added_b": -29.96
+  },
+  {
+   "a": "A14",
+   "b": "B16",
+   "kind": "moved",
+   "margin": 10.03,
+   "disp": 0.17680608770120682,
+   "rot": 140.2783559967,
+   "terms": {
+    "llr_before_obj_in_after": 41.94,
+    "llr_after_obj_in_before": 38.94,
+    "groups": [
+     14,
+     13
+    ],
+    "identity": 6.31,
+    "appearance": 4.0,
+    "prior": -3.03
+   },
+   "s_unchanged": 1.36,
+   "s_moved": 23.51,
+   "ambiguous_with": [],
+   "i": 14.0,
+   "j": 16.0,
+   "llr_gone_a": 38.94,
+   "llr_added_b": 38.94
+  },
+  {
+   "a": "A16",
+   "b": "B18",
+   "kind": "unchanged",
+   "margin": 7.76,
+   "disp": 0.002794569205380735,
+   "rot": 1.4039011572388034,
+   "terms": {},
+   "s_unchanged": 5.35,
+   "s_moved": -Infinity,
+   "ambiguous_with": [],
+   "i": 16.0,
+   "j": 18.0,
+   "llr_gone_a": -31.87,
+   "llr_added_b": -41.94
+  },
+  {
+   "a": "A17",
+   "b": "B19",
+   "kind": "unchanged",
+   "margin": 8.72,
+   "disp": 0.010867374150604405,
+   "rot": 1.9292120059004614,
+   "terms": {},
+   "s_unchanged": 6.31,
+   "s_moved": -Infinity,
+   "ambiguous_with": [],
+   "i": 17.0,
+   "j": 19.0,
+   "llr_gone_a": -38.94,
+   "llr_added_b": -20.97
+  },
+  {
+   "a": "A18",
+   "b": "B20",
+   "kind": "moved",
+   "margin": 14.32,
+   "disp": 0.31824625014706365,
+   "rot": 31.909665535555668,
+   "terms": {
+    "llr_before_obj_in_after": 29.96,
+    "llr_after_obj_in_before": 29.96,
+    "groups": [
+     10,
+     11
+    ],
+    "identity": 6.18,
+    "appearance": 3.91,
+    "prior": -3.1
+   },
+   "s_unchanged": 0.31,
+   "s_moved": 18.06,
+   "ambiguous_with": [],
+   "i": 18.0,
+   "j": 20.0,
+   "llr_gone_a": 11.98,
+   "llr_added_b": 26.96
+  }
+ ],
+ "singles_a": {
+  "A01": {
+   "state": "present",
+   "margin": 4.04,
+   "llr_gone": -8.99,
+   "groups_observed": 3
+  },
+  "A03": {
+   "state": "present",
+   "margin": 6.73,
+   "llr_gone": -19.73,
+   "groups_observed": 7
+  },
+  "A15": {
+   "state": "present",
+   "margin": 10.78,
+   "llr_gone": -35.95,
+   "groups_observed": 12
+  }
+ },
+ "singles_b": {
+  "B01": {
+   "state": "present",
+   "margin": 6.58,
+   "llr_added": -19.16,
+   "groups_observed": 7
+  },
+  "B05": {
+   "state": "present",
+   "margin": 2.54,
+   "llr_added": -3.0,
+   "groups_observed": 3
+  },
+  "B08": {
+   "state": "present",
+   "margin": 4.04,
+   "llr_added": -8.99,
+   "groups_observed": 3
+  },
+  "B12": {
+   "state": "present",
+   "margin": 4.79,
+   "llr_added": -11.98,
+   "groups_observed": 4
+  },
+  "B17": {
+   "state": "present",
+   "margin": 3.29,
+   "llr_added": -5.99,
+   "groups_observed": 4
+  }
+ },
+ "config": {
+  "eta": 0.25,
+  "log_pi_change": -2.995732273553991,
+  "log_pi_move": -2.995732273553991,
+  "sigma_motion_m": 1.5,
+  "p_miss": 0.3,
+  "odds_min": 19.0,
+  "shape_slope": 6.0,
+  "shape_ref": 0.6,
+  "feat_per_inlier": 0.08
+ }
+}
